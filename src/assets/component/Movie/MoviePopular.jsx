@@ -46,7 +46,7 @@ export const MoviePopular = () => {
               key={index}
               onClick={() => {
                 navigate(`/Detail/${value.id}`)}}>
-              <RenderMovie dataMovie={value} DataAll={LoadData.results} />
+              <RenderMovie dataMovie={value} DataAll={LoadData?.results} />
             </div>)})}
       </div>
     </div>
